@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube Clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+
+</head>
+
+
+<body>
+
+  <!--Header-->
+  <header>
+    <div class="header">
+
+      <!--Left section-->
+
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+
+      <!--Middle section-->
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <!--Right section-->
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="profile-pictures/hc.jpeg">
+      </div>
+    </div>
+  </header>
+
+
+  <!--Sidebar-->
+  <nav>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        Home
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        Explore
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        Subscriptions
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        Originals
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        YouTube Music
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        Library
+      </div>
+    </div>
+  </nav>
+
+
+  <!--Video grid-->
+  <main>
+    <section class="video-grid">
+
+      <!--First video-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/yc1.webp">
+          <div class="video-time">14:20</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="profile-pictures/yc-logo.jpg">
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">
+              The Cult of Conformity in Silicon Valley
+            </p>
+
+            <p class="video-author">
+              Y Combinator
+            </p>
+
+            <p class="video-stats">
+              77.792 visninger &#183; for 1 år siden
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Second video-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/barca.webp">
+          <div class="video-time">3:07</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="profile-pictures/barca_profile.jpg">
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">
+              FC BARCELONA 5 vs 1 SEVILLA| LALIGA 2024/25 MD10
+            </p>
+
+            <p class="video-author">
+              FC Barcelona
+            </p>
+
+            <p class="video-stats">
+              1,3 mio. visninger &#183; for 2 dage siden
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Third video-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/bryan.webp">
+          <div class="video-time">4:27</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="profile-pictures/bryan_profile.jpg">
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">
+              My #1 Food For Anti-Aging
+            </p>
+
+            <p class="video-author">
+              Bryan Johnson
+            </p>
+
+            <p class="video-stats">
+              813.582 visninger &#183; for 8 måneder siden
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Fourth video-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/peter.webp">
+          <div class="video-time">47:10</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="profile-pictures/twis.jpg">
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">
+              Peter Thiel on being a contrarian
+            </p>
+
+            <p class="video-author">
+              This Week in Startups
+            </p>
+
+            <p class="video-stats">
+              262.255 visninger &#183; for 9 år siden
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Fifth video-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/marc.webp">
+          <div class="video-time">2:33</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="profile-pictures/startup-archive.jpg">
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">
+              Marc Andreessen on how the best founders navigate the “idea maze”
+            </p>
+
+            <p class="video-author">
+              Startup Archive
+            </p>
+
+            <p class="video-stats">
+              1.324 visninger &#183; for 8 måneder siden
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Sixth video-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/java-tutorial.webp">
+          <div class="video-time">22:15:57</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="profile-pictures/supersimpledev.jpg">
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">
+              JavaScript Tutorial Full Course - Beginner to Pro (2024)
+            </p>
+
+            <p class="video-author">
+              SuperSimpleDev
+            </p>
+
+            <p class="video-stats">
+              2,2 mio. visninger &#183; for 5 måneder siden
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Seventh video-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/user-interview.webp">
+          <div class="video-time">46:27</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="profile-pictures/yc-vault.jpg">
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">
+              Lecture 16 - How to Run a User Interview (Emmett Shear)
+            </p>
+
+            <p class="video-author">
+              Y Combinator: The Vault
+            </p>
+
+            <p class="video-stats">
+              184.145 visninger &#183; for 9 år siden
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Eighth video-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/manhattan.webp">
+          <div class="video-time">2:02:24</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="profile-pictures/play.jpg">
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">
+              The Manhattan Jazz Bar [Jazz Hits, Best of Jazz]
+            </p>
+
+            <p class="video-author">
+              PLAYaudio - Smooth Jazz and more
+            </p>
+
+            <p class="video-stats">
+              866.815 visninger &#183; for 4 måneder siden
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Ninth video-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/monzo.webp">
+          <div class="video-time">22:56</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="profile-pictures/s.jpg">
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">
+              Capital Conversation Episode 33: Monzo CEO Tom Blomfield
+            </p>
+
+            <p class="video-author">
+              Seven Hills
+            </p>
+
+            <p class="video-stats">
+              12.047 visninger &#183; for 5 år siden
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Tenth video-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/garry.webp">
+          <div class="video-time">19:33</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="profile-pictures/yc-logo.jpg">
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">
+              Design for Startups by Garry Tan (Part 2)
+            </p>
+
+            <p class="video-author">
+              Y Combinator
+            </p>
+
+            <p class="video-stats">
+              25.432 &#183; for 6 år siden
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Eleventh video-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/steve.webp">
+          <div class="video-time">5:15</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="profile-pictures/jonathan.jpg">
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">
+              Steve Jobs Insult Response - Highest Quality
+            </p>
+
+            <p class="video-author">
+              Jonathan Field
+            </p>
+
+            <p class="video-stats">
+              14 mio. visninger &#183; for 7 år siden
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--Twelfth video-->
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/vc.webp">
+          <div class="video-time">29:26</div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="profile-pictures/ft.jpg">
+          </div>
+
+          <div class="video-info">
+            <p class="video-title">
+              Sequoia Capital and the evolution of the VC industry | FT Film
+            </p>
+
+            <p class="video-author">
+              Financial Times
+            </p>
+
+            <p class="video-stats">
+              223.336 mio. visninger &#183; for 13 dage siden
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
